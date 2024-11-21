@@ -1,0 +1,31 @@
+{
+  "name": "esimerenthub-backend",
+  "version": "1.0.0",
+  "description": "Backend for ESIMERentHub",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "npx nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "@radix-ui/react-dropdown-menu": "^2.1.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^6.10.0",
+    "mongoose": "^7.0.3",
+    "prisma": "^5.22.0",
+    "react-toastify": "^10.0.6",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
